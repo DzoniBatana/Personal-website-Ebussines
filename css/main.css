@@ -1,0 +1,943 @@
+*{
+	margin:0px;
+	padding:0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/* Slike na svim početnim stranama*/
+.bgimage{
+	background-image: url("fotografije/antique-art-cartoon-2250394.jpg");
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+.bgimage1{
+	background-image: url("fotografije/explore-flag-word-2330507.jpg");
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimage2
+{
+    background-image: url(fotografije/cacti-decoration-houseplant-2292100.jpg);
+    background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimage6{
+	background-image: url("fotografije/lllll.jpg");
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+.bgimage3{
+	background-image: url("fotografije/analogue-background-camera-593324.jpg");
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimage4{
+	background-image: url("fotografije/connection-contact-focus-955081.jpg");
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimage9
+{
+    background-image: url(fotografije/accounts-blur-button-267350.jpg);
+    background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Meni */
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+}
+
+.leftmenu h4{
+	padding-left: 30px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+
+.rightmenu ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.rightmenu ul li a:hover
+{
+    color: orange;
+}
+
+#fisrtlist{
+	color: orange;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+
+/* strana HOME */ 
+
+
+
+/* strana O MENI */
+
+.pokretnidiv
+{
+    height: 400px;
+    width: 1000px;
+    border: 1px;
+    margin: auto;
+    padding-top: 30px;
+    /* ovaj div smo koristili i na ostalim stranama */ 
+}
+
+.pokretnidiv p
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(0,0,0,0.5);
+    color: aliceblue;
+    font-size: 30px;
+    font-weight:lighter;
+    text-align: justify;
+}
+
+.bgimage7 
+{
+    background-image: url("fotografije/lol.jpg");
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* strana GALERIJA */ 
+.bgimage8 
+{
+    background-image: url(fotografije/adult-apartment-building-best-friend-2284350.jpg);
+    background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pokretnidiv1
+{
+    height: 400px;
+    width: 1000px;
+    border: 1px;
+    margin: auto;
+    padding-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    /* ovaj div smo koristili i na ostalim stranama */ 
+}
+
+.pokretnidiv1 img
+{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+	
+}
+
+.pokretnidiv1 img:hover
+{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+
+
+
+/* footer za sve strane*/ 
+
+.footer {
+		background-color: #F64747;
+		color: #fdd1d1;
+		padding: 6em 0 4em 0;
+		background: #F64747;
+	}
+
+		.footer .copyright {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8em;
+			margin: 0 0 2em 0;
+			padding: 0;
+			text-align: center;
+		}
+.footer .ikonice
+{
+    width: 240px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.footer .ikonice ul li
+{
+    display:inline;
+    
+}
+
+ /* ikonice u footer-u  takođe u sklopu footer segmenta */ 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/* contactme strana sa formulom za popunjavanje */ 
+.CONTACTME
+{
+	height: 400px;
+	background-color: #F64747;
+}
+
+.CONTACTME .contactme
+{
+	height: 400px;
+	width: 1000px;
+	background-color: #F64747;
+	margin: auto;
+}
+
+
+.CONTACTME .contactme .prviRed
+{
+	height: 50px;
+    width: 800px;
+    margin: auto;
+	padding-top: 30px;
+}
+
+.CONTACTME .contactme .prviRed input
+{
+	height: 39px;
+    width: 361px;
+    padding: 6px;
+    margin-left: 14px;
+	background-color: #F68A8A;
+    border-color: #ffffff;
+    box-shadow: 0 0 0 1px #ffffff;
+}
+
+.CONTACTME .contactme .drugiRed
+{
+	height: 50px;
+    width: 800px;
+    margin: auto;
+	padding-top: 30px;
+}
+
+.CONTACTME .contactme .drugiRed input
+{
+	height: 39px;
+    width: 361px;
+    padding: 6px;
+    margin-left: 14px;
+	background-color: #F68A8A;
+    border-color: #ffffff;
+    box-shadow: 0 0 0 1px #ffffff;
+}
+
+
+.CONTACTME .contactme .petiRed
+{
+	height: 50px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.CONTACTME .contactme .petiRed textarea
+{
+	height: 120px;
+    width: 753px;
+    padding: 6px;
+    margin-left: 14px;
+    padding-top: 20px;
+	margin-top: 15px;
+	background-color: #F68A8A;
+    border-color: #ffffff;
+    box-shadow: 0 0 0 1px #ffffff;
+}
+
+.btn1
+{
+    height: 40px;
+    width: 120px;
+    align-content: center;
+    background-color: #F64747;
+    color: white;
+    font-style: oblique;
+    font-size: 15px;
+    margin-top: 120px;
+    margin-left: 114px;
+}
+
+.btn1:hover
+{
+        background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        transition: all .3s ease-in-out;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+}
+
+
+.mojamapa
+{
+    width: auto;
+    height: 770px;
+    background-color: #F64747;
+    margin: auto;
+}
+
+.mojamapa .mapa
+{
+    width: 1100px;;
+    height: 700px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+/* ovde se radi strana GALERIJA */
+ .seminarskipano
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(fotografije/caffeine-cappuccino-coffee-2396220.jpg);
+	background-size: 100% 110%;
+	width: 100%;
+	height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seminarskipano .seminarski
+{
+	width: 80%;
+	height: 100%;
+	background-color: beige;
+	margin: auto;
+}
+
+
+
+.seminarskipano .seminarski .Canvas
+{
+    width: 100%;
+    height: 390px;
+    background-color: beige;
+}
+
+.seminarskipano .seminarski .Canvas p
+{
+    margin: auto;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.seminarskipano .seminarski .Canvas h1
+{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.seminarskipano .seminarski .download
+{
+	width: 30%;
+	height: 200px;
+	background-color: beige;
+	margin: auto;
+	padding-top: 50px;
+	
+}
+
+.seminarskipano .seminarski .CanvasTutorial
+{
+	width: 100%;
+	height: 2050px;
+	background-color: beige;
+	margin: auto;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C1
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C1 .c1levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C1 .c1levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C1 .c1desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C1 .c1desno p
+{
+	padding-top: 30px;
+}
+
+/* C2 */
+
+.seminarskipano .seminarski .CanvasTutorial .C2
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C2 .c2levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C2 .c2levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C2 .c2desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C2 .c2desno p
+{
+	padding-top: 30px;
+}
+
+/* C3 */
+.seminarskipano .seminarski .CanvasTutorial .C3
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C3 .c3levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C3 .c3levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C3 .c3desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C3 .c3desno p
+{
+	padding-top: 30px;
+}
+
+/* C4 */ 
+
+.seminarskipano .seminarski .CanvasTutorial .C4
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C4 .c4levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C4 .c4levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C4 .c4desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C4 .c4desno p
+{
+	padding-top: 30px;
+}
+
+
+/* C5  */
+
+.seminarskipano .seminarski .CanvasTutorial .C5
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C5 .c5levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C5 .c5levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C5 .c5desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C5 .c5desno p
+{
+	padding-top: 30px;
+}
+
+
+/* C6   */ 
+
+.seminarskipano .seminarski .CanvasTutorial .C6
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C6 .c6levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C6 .c6levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C6 .c6desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C6 .c6desno p
+{
+	padding-top: 30px;
+}
+
+/*  C7  */
+
+.seminarskipano .seminarski .CanvasTutorial .C7
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C7 .c7levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C7 .c7levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C7 .c7desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C7 .c7desno p
+{
+	padding-top: 30px;
+}
+
+
+/*  C8  */
+
+.seminarskipano .seminarski .CanvasTutorial .C8
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C8 .c8levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C8 .c8levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C8 .c8desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C8 .c8desno p
+{
+	padding-top: 30px;
+}
+
+
+/*  C9  */ 
+.seminarskipano .seminarski .CanvasTutorial .C9
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C9 .c9levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C9 .c9levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C9 .c9desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C9 .c9desno p
+{
+	padding-top: 30px;
+}
+
+
+
+/*  C10  */
+.seminarskipano .seminarski .CanvasTutorial .C10
+{
+	height: 200px;
+	width: 100%;
+	background-color: beige;
+	
+}
+.seminarskipano .seminarski .CanvasTutorial .C10 .c10levo
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	text-align: center;
+}
+.seminarskipano .seminarski .CanvasTutorial .C10 .c10levo canvas
+{
+	margin-top: 30px;
+}
+
+.seminarskipano .seminarski .CanvasTutorial .C10 .c10desno
+{
+	width: 50%;
+	float: left;
+	height: 200px;
+	background-color: beige;
+	font-size: 30px;
+}
+.seminarskipano .seminarski .CanvasTutorial .C10 .c10desno p
+{
+	padding-top: 30px;
+}
+
+
+/*  MEDIJA strana */ 
+
+.medija
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(fotografije/advertising-alphabet-blog-267371.jpg);
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.medija .medijaDiv
+{
+    height: 100vh;
+    width: 1000px;
+    border: 1px;
+    margin: auto;
+    padding-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+}
+.medija .medijaDiv .video
+{
+   padding-left: 20px;
+    float: left;
+   
+    
+}
+
+.medija .medijaDiv .downloadvideo
+{
+    float: left;
+    padding-top: 230px;
+}
+
+.medija .medijaDiv .videotxt
+{
+    height: 400px;
+    width: 700px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+
+
+
+/* ovde je posebni footer za KONTAKT stranu */ 
+
+.posebnifooter {
+		background-color: #F64747;
+		color: #fdd1d1;
+		padding: 6em 0 4em 0;
+		background: #F64747;
+	}
+
+		.posebnifooter .copyright {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8em;
+			margin: 0 0 2em 0;
+			padding: 0;
+			text-align: center;
+		}
+.posebnifooter .ikonice
+{
+    width: 240px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.posebnifooter .ikonice ul li
+{
+    display:inline;
+    
+}
+
+ /* ikonice u footer-u  takođe u sklopu footer segmenta */ 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+

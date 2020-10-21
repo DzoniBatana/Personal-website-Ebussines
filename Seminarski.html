@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>   
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/js.js"></script>
+    
+    </head>
+    <body>
+        
+        <div class="bgimage6">
+        <div class="menu">
+            <div class="leftmenu">
+                <h4>DŽONIJEV LIČNI SAJT</h4>
+            </div>
+            <div class="rightmenu">
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="O%20meni.html">O MENI</a></li>
+                <li><a href="Galerija.html">GALERIJA</a></li>
+                <li><a href="Medija.html">MEDIJA</a></li>
+                <li><a href="Seminarski.html">SEMINARSKI</a></li>
+                <li><a href="Kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+		<div class="seminarskipano">
+			<div class="seminarski">
+                
+                <div class="Canvas">
+                    <h1>Canvas</h1>
+                 <p>HTML "canvas" element je tag koji se pojavio kao jedan od HTML5 novina. Koristi se za iscrtavanje grafičkih elemenata, fotografskih kompozicija i pravljenje jednostavnih animacija pomoću nekog skript jezika (najčešće javascript).
+                    Canvas element je samo kontejner za grafiku koji se određuje pomoću width i height atributa. Prava moć canvas elementa dolazi do izražaja kroz upotrebu HTML5 Canvas API-ja. Upotrebom javascript-a se može pristupiti čitavom setu funkcija za crtanje putanja, kvadrata, krugova, linija, teksta i dodavanje slika. Što ćete dalje videti u nastavku same strane, takođe ćete imati i mogućnost da skinete Seminarski i PowerPoint prezentaciju na temu "Canvas".
+                    </p>
+                </div>
+				<div class="download">
+					<a href="Elektronsko%20poslovanje%20seminarski.docx" download>
+  <img src="css/fotografije/2000px-microsoft_word_doc_logo.png" alt="thumbnail" width="150" height="150">
+</a>
+					<a href="Elektronsko%20poslovanje.pptx" download>
+  <img src="css/fotografije/md_5b334611319f5.png" alt="thumbnail" width="150" height="150">
+</a>
+				
+				</div>
+				<div class="CanvasTutorial">
+					<div class="C1">
+					<div class="c1levo">
+						<canvas id="myCanvas" width="200" height="100"
+style="border:1px solid #000000;">
+</canvas>
+						</div>
+					<div class="c1desno">
+						<p>Ovde je primer klasicnog "Canvas" platna. U pitanju je samo platno bez ikakvih dodataka.</p>
+						</div>
+					</div>
+					<div class="C2">
+						<div class="c2levo">
+						<canvas id="myCanvas1" width="200" height="100"
+style="border:1px solid #c3c3c3;">
+							</canvas>
+<script>
+var canvas = document.getElementById("myCanvas1");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0,0,150,75);
+</script>					
+						</div>
+						<div class="c2desno">
+						<p>Ovde je primer klasicnog "Canvas" platna. U pitanju je platno koje je obojeno samo jednim delom, i to u crvenu boju, to je upravo definisano pomocu JS-a.</p>
+						</div>
+					</div>
+					
+					<div class="C3">
+						<div class="c3levo">
+						<canvas id="myCanvas2" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+
+var canvas = document.getElementById("myCanvas2");
+var ctx = canvas.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();
+
+</script>
+						</div>
+						<div class="c3desno">
+						<p>Ovde je primer klasicnog "Canvas" platna. U pitanju je platno koje ima dijagonalnu liniji na sebi, takodje definisano pomocu JS-a.</p>
+						</div>
+					
+					</div>
+					
+					<div class="C4">
+						<div class="c4levo">
+						<canvas id="myCanvas3" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+
+var canvas = document.getElementById("myCanvas3");
+var ctx = canvas.getContext("2d");
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+
+</script>
+						</div>
+						<div class="c4desno">
+						<p>Ovde je primer klasicnog "Canvas" platna. U pitanju je platno na kome je nacrtan krug, pomocu JS-a.</p>
+						</div>
+					
+					</div>
+					
+					<div class="C5">
+						<div class="c5levo">
+						<canvas id="myCanvas4" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+
+var c = document.getElementById("myCanvas4");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createLinearGradient(0, 0, 200, 0);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80); 
+
+</script>
+						</div>
+						<div class="c5desno">
+						<p>Ovde je primer klasicnog "Canvas" platna. U pitanju je platno na kome se boje menjaju postepeno iz crvene u belo.</p>
+						</div>
+					
+					</div>
+					
+					
+					<div class="C6">
+						<div class="c6levo">
+						<canvas id="myCanvas5" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+
+var c = document.getElementById("myCanvas5");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80); 
+
+</script>
+						</div>
+						<div class="c6desno">
+						<p>Ovde je primer klasicnog "Canvas" platna. U pitanju je platno na kome se boje menjaju ili spajaju od sredine ka vani.</p>
+						</div>
+					
+					</div>
+					
+					<div class="C7">
+						<div class="c7levo">
+						<canvas id="myCanvas6" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+
+var canvas = document.getElementById("myCanvas6");
+var ctx = canvas.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Hello World", 10, 50); 
+
+</script>
+						</div>
+						<div class="c7desno">
+						<p>Ovde je primer klasicnog "Canvas" platna. Na njemu je napisano "Hello world" u kalicnoj crnoj boji, koja je osnovna varijanta pisanja na platnu.</p>
+						</div>
+					
+					</div>
+					
+					
+					<div class="C8">
+						<div class="c8levo">
+						<canvas id="myCanvas7" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+
+var canvas = document.getElementById("myCanvas7");
+var ctx = canvas.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World", 10, 50);  
+
+</script>
+						</div>
+						<div class="c8desno">
+						<p>Ovde je primer klasicnog "Canvas" platna. Na njemu je napisano "Hello world" u strokeText izvedbi, to znaci da je tekst prazan bez boje iznutra.</p>
+						</div>
+					
+					</div>
+					
+					<div class="C9">
+						<div class="c9levo">
+						<canvas id="myCanvas8" width="200" height="100"
+style="border:1px solid #d3d3d3;">
+</canvas>
+<script>
+
+var canvas = document.getElementById("myCanvas8");
+var ctx=canvas.getContext("2d");
+ctx.font="30px Comic Sans MS";
+ctx.fillStyle = "red";
+ctx.textAlign = "center";
+ctx.fillText("Hello World", canvas.width/2, canvas.height/2);
+
+</script>
+						</div>
+						<div class="c9desno">
+						<p>Ovde je primer klasicnog "Canvas" platna. Na njemu je napisano "Hello world" u punoj izvedbi sa obojenim tekstom u crveno. Popunjeni tekst i centriran na sredini platna.</p>
+						</div>
+					
+					</div>
+					
+					
+				<div class="C10">
+						<div class="c10levo">
+						<canvas id="myCanvas9" width="270" height="190"
+style="border:1px solid #d3d3d3;">
+	<img id="drugarstvo" width="240" height="160"
+src="drugarstvo.jpg" alt="Drugarstvo">
+</canvas>
+<script>
+
+window.onload = function() {
+    var canvas = document.getElementById("myCanvas9");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("drugarstvo");
+   ctx.drawImage(img, 10, 10);
+};
+</script>
+						</div>
+						<div class="c10desno">
+						<p>Ovde je primer "Canvas" platna u kome se nalazi fotografija. CanvasImage.</p>
+						</div>
+					
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		<div class="footer">
+            <div class="ikonice">
+            <ul>
+						<li><a href="#" class="fa fa-twitter"></a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=1264209675" class="fa fa-facebook"></a></li>
+						<li><a href="https://www.instagram.com/_dzoni_batana/?hl=sr" class="fa fa-instagram"></a></li>
+					</ul>
+
+            </div>
+            
+					<div class="copyright">
+						&copy; Untitled. Design: <a>DŽONI</a>. Images: <a href="https://www.pexels.com/">Pexels</a>.
+					</div>
+        
+        </div>
+    </body>
+</html>
